@@ -4,5 +4,8 @@ using System;
 
 namespace SavingInterface
 {
-
+  interface IDisplayable
+  {
+    
+  }
 }
