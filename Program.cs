@@ -6,7 +6,12 @@ namespace AppInterface
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TodoList tdl = new TodoList();
+            tdl.Add("Invite friends");
+            tdl.Add("Buy decorations");
+            tdl.Add("Party");
+
+            PasswordManager pm = new PasswordManager("iluvpie", true); 
         }
     }
 }
